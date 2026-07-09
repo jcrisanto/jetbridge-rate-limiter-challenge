@@ -1,0 +1,16 @@
+{
+  "name": "rate-limiter-challenge",
+  "version": "1.0.0",
+  "description": "Sliding-window rate limiter with per-user history",
+  "type": "module",
+  "main": "src/rate-limiter.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
